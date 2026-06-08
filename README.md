@@ -127,20 +127,11 @@ dotnet restore
 
 ### 2. Firebase Configuration
 
-**Option A: Environment Variable (Recommended for Production)**
-```bash
-export GOOGLE_APPLICATION_CREDENTIALS="/path/to/serviceAccountKey.json"
-```
-
 **Option B: File in Project Root (Development)**
-- Download your Firebase service account key from Firebase Console
+- Create a file at ...\Backend\FuncHealthDemo
 - Save as `serviceAccountKey.json` in the `FuncHealthDemo` project root
 - The app will auto-detect and load it
 
-**Option C: Skip Firebase for Local Testing**
-- Firebase initialization will fail gracefully
-- All endpoints will return 401/500 without valid tokens
-- Use this only for local development testing
 
 ### 3. Run the Application
 ```bash
