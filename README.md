@@ -120,7 +120,7 @@ A secure task management API built with .NET 10 and Firebase Authentication. Use
 
 ### 1. Clone and Restore Packages
 ```bash
-git clone <repo-url>
+git clone [<repo-url>](https://github.com/lucasrdea/FuncHealthDemo)
 cd FuncHealthDemo
 dotnet restore
 ```
