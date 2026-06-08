@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FuncHealthDemo/FuncHealthDemo.csproj" />
+  <Project Path="FuncHealthTests/FuncHealthTests.csproj" Id="f50b9d0c-ca88-43ba-8d04-c960fbb1c8c1" />
+</Solution>

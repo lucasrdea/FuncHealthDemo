@@ -1,0 +1,35 @@
+# Firebase Service Account Keys
+serviceAccountKey.json
+*-firebase-adminsdk-*.json
+
+# Build results
+bin/
+obj/
+out/
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+*.vsidx
+*.vspscc
+*.vsscc
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local

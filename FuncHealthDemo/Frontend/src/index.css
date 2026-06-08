@@ -1,0 +1,23 @@
+:root {
+  --bg: #faf8f5;
+  --sans: 'Avenir Next', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --serif: 'Iowan Old Style', 'Baskerville', 'Times New Roman', serif;
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.4;
+  color: #343230;
+  background-color: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+#root {
+  min-height: 100vh;
+}
